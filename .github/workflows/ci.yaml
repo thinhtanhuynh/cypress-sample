@@ -25,5 +25,5 @@ jobs:
       - name: Run Test Parallel
         uses: cypress-io/github-action@v5
         with:
-          spec: cypress/e2e/examples/${{matrix.containers}}.cy.js
+          spec: cypress/e2e/${{matrix.containers}}.cy.js
           browser: chrome
